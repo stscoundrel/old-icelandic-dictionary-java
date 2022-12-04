@@ -18,6 +18,40 @@ As Maven dependency.
 
 For alternative install methods, see the [Maven Central Repo](https://search.maven.org/artifact/io.github.stscoundrel/old-icelandic-dictionary)
 
+### Usage
+
+The dictionary comes in two variants:
+- Markup version of dictionary has html markup `<i>` and `<b>` to match look of the original book.
+- No-markup version has the same content without any additional formatting tags.
+
+```java
+
+import io.github.stscoundrel.oldicelandicdictionary;
+
+Dictionary dictionary = new Dictionary();
+
+// Both dictionaries return entries that consist of headword and definitions list.
+DictionaryEntry[] noMarkupResult = dictionary.getDictionary(); // has alias "getNoMarkupDictionary"
+DictionaryEntry[] markupResult = dictionary.getMarkupDictionary();
+
+// Headwords wont differ between dictionaries.
+System.out.println(noMarkupResult[14].headword);  // afbindi
+System.out.println(markupResult[14].headword);    // afbindi
+
+// But definition markup does differ.
+System.out.println(noMarkupResult[14].definitions[0]);   // n. constipation.
+System.out.println(markupResult[14].definitions[0]);     // n. <i>constipation</i>.
+
+```
+
+Individual words are returned in format of:
+
+```java
+{
+    String headword;
+    String[] definitions;
+}
+```
 
 ### About "A Concise Dictionary of Old Icelandic"
 
