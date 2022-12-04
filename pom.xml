@@ -5,12 +5,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.github.stscoundrel</groupId>
-  <artifactId>javatemplate</artifactId>
+  <artifactId>old-icelandic-dictionary</artifactId>
   <version>0.1.0</version>
 
-  <name>javatemplate</name>
-  <description>A simple Java/Maven template.</description>
-  <url>https://github.com/stscoundrel/java-template</url>
+  <name>old-icelandic-dictionary</name>
+  <description>Old Icelandic dictionary. From "A Concise Dictionary of Old Icelandic" by Geir Zoëga.</description>
+  <url>https://github.com/stscoundrel/old-icelandic-dictionary-java</url>
   
   <developers>
     <developer>
@@ -25,9 +25,9 @@
   </developers>
   
   <scm>
-    <connection>scm:git:git://github.com/stscoundrel/java-template.git</connection>
-    <developerConnection>scm:git:ssh://github.com:stscoundrel/java-template.git</developerConnection>
-    <url>http://github.com/stscoundrel/java-template/tree/master</url>
+    <connection>scm:git:git://github.com/stscoundrel/old-icelandic-dictionary-java.git</connection>
+    <developerConnection>scm:git:ssh://github.com:stscoundrel/old-icelandic-dictionary-java.git</developerConnection>
+    <url>http://github.com/stscoundrel/old-icelandic-dictionary-java/tree/master</url>
   </scm>
 
   <licenses>
