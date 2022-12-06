@@ -11,7 +11,7 @@ As Maven dependency.
 ```xml
 <dependency>
   <groupId>io.github.stscoundrel</groupId>
-  <artifactId>old-icelandic-dictionary</artifactId>
+  <artifactId>oldicelandic</artifactId>
   <version>0.2.0</version> <!-- Note! Check latest release number -->
 </dependency>
 ```
