@@ -12,7 +12,7 @@ As Maven dependency.
 <dependency>
   <groupId>io.github.stscoundrel</groupId>
   <artifactId>old-icelandic-dictionary</artifactId>
-  <version>0.1.1</version> <!-- Note! Check latest release number -->
+  <version>0.2.0</version> <!-- Note! Check latest release number -->
 </dependency>
 ```
 
@@ -26,8 +26,8 @@ The dictionary comes in two variants:
 
 ```java
 
-import io.github.stscoundrel.oldicelandicdictionary.Dictionary;
-import io.github.stscoundrel.oldicelandicdictionary.DictionaryEntry;
+import io.github.stscoundrel.oldicelandic.Dictionary;
+import io.github.stscoundrel.oldicelandic.DictionaryEntry;
 
 Dictionary dictionary = new Dictionary();
 

@@ -1,4 +1,4 @@
-package io.github.stscoundrel.oldicelandicdictionary;
+package io.github.stscoundrel.oldicelandic;
 
 import com.google.gson.annotations.SerializedName;
 

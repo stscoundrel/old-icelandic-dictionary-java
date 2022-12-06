@@ -1,4 +1,4 @@
-package io.github.stscoundrel.oldicelandicdictionary;
+package io.github.stscoundrel.oldicelandic;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;

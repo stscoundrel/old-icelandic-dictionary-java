@@ -1,4 +1,4 @@
-package io.github.stscoundrel.oldicelandicdictionary;
+package io.github.stscoundrel.oldicelandic;
 
 import junit.framework.TestCase;
 
