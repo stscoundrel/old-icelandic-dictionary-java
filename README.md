@@ -26,7 +26,8 @@ The dictionary comes in two variants:
 
 ```java
 
-import io.github.stscoundrel.oldicelandicdictionary;
+import io.github.stscoundrel.oldicelandicdictionary.Dictionary;
+import io.github.stscoundrel.oldicelandicdictionary.DictionaryEntry;
 
 Dictionary dictionary = new Dictionary();
 
