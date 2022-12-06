@@ -6,7 +6,7 @@
 
   <groupId>io.github.stscoundrel</groupId>
   <artifactId>oldicelandicdictionary</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.1</version>
 
   <name>old-icelandic-dictionary</name>
   <description>Old Icelandic dictionary. From "A Concise Dictionary of Old Icelandic" by Geir Zoëga.</description>

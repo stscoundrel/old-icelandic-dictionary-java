@@ -12,7 +12,7 @@ As Maven dependency.
 <dependency>
   <groupId>io.github.stscoundrel</groupId>
   <artifactId>old-icelandic-dictionary</artifactId>
-  <version>0.1.0</version> <!-- Note! Check latest release number -->
+  <version>0.1.1</version> <!-- Note! Check latest release number -->
 </dependency>
 ```
 
