@@ -16,7 +16,7 @@ As Maven dependency.
 </dependency>
 ```
 
-For alternative install methods, see the [Maven Central Repo](https://search.maven.org/artifact/io.github.stscoundrel/old-icelandic-dictionary)
+For alternative install methods, see the [Maven Central Repo](https://search.maven.org/artifact/io.github.stscoundrel/oldicelandic)
 
 ### Usage
 
